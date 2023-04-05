@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg');
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .container {
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .time {
+    padding: 1rem 0;
+    font-size: 2rem;
+  }
+
+  h1,
+  p {
+    color: #f8f8f8;
+  }
+
+  button {
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    border: 1px solid #f8f8f8;
+  }
+
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f8f8f8;
+  }
