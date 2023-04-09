@@ -8,14 +8,9 @@
     background-image: url('https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg');
     background-position: center;
     background-size:cover;
-    align-items:center;
-    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
-    
-justify-content: center;
-align-items: center
-  }
+
+ }
 
   .container {
     padding: 2rem;
@@ -26,8 +21,7 @@ align-items: center
     background-color: rgba(0, 0, 0, 0.6);
     margin: auto;
     width: 50%;
- 
-    border: 3px solid green;
+    border: 3px solid rgb(91, 223, 91);
     padding: 10px;
     
    
