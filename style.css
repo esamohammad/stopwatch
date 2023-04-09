@@ -8,19 +8,29 @@
     background-image: url('https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_960_720.jpg');
     background-position: center;
     background-size:cover;
-    display: flex;
     align-items:center;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    
+justify-content: center;
+align-items: center
   }
 
   .container {
-    padding: 1rem;
-    max-width: 300px;
+    padding: 2rem;
+    max-width: 500px;
     text-align: center;
     position: relative;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    width: 50%;
+ 
+    border: 3px solid green;
+    padding: 10px;
+    
+   
   }
 
   .time {
