@@ -9,7 +9,8 @@
     background-position: center;
     background-size:cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    display: flex;
+    flex-direction: column;
  }
 
   .container {
@@ -23,6 +24,7 @@
     width: 50%;
     border: 3px solid rgb(91, 223, 91);
     padding: 10px;
+   
     
    
   }
